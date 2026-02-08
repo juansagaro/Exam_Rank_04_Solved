@@ -6,13 +6,14 @@
 /*   By: jsagaro- <jsagaro-@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/07 12:52:50 by jsagaro-          #+#    #+#             */
-/*   Updated: 2026/02/07 18:21:05 by jsagaro-         ###   ########.fr       */
+/*   Updated: 2026/02/08 12:15:16 by jsagaro-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 #include <stdlib.h>
 #include <stdio.h>
+#include <sys/wait.h>
 
 int ft_popen(const char *file, const char *argv[], char type)
 {
