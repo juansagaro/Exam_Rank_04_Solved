@@ -73,9 +73,11 @@ To test these exercises, compile them with the standard flags.
 gcc -Wall -Wextra -Werror vbc.c given.c -o vbc
 ./vbc "2 * (3 + 4)"
 # Output: 14
+```
 
 ### Compiling Argo
 ```bash
 gcc -Wall -Wextra -Werror argo.c given.c -o argo
 echo '{"key": "value", "id": 42}' | ./argo /dev/stdin
 # Output: {"key":"value","id":42}
+```
